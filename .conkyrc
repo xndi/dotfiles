@@ -1,0 +1,34 @@
+# written by azk4n (azk4n@null.net)
+
+background yes
+use_xft yes
+xftfont Droid Sans:size=8.4
+xftalpha 3.0
+
+update_interval 1.0
+total_run_times 0
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+minimum_size 1350 0  
+
+own_window yes
+own_window_type desktop
+own_window_transparent no
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_colour 242424
+
+double_buffer yes
+#no_buffers no
+default_color C99FD0
+color1 eeeeee
+alignment top_left
+imlib_cache_size 0
+
+gap_x 8
+gap_y 6
+
+TEXT
+ azk4n |   ${color1}${time %H:%M:%S}  ${color} |   ${color}uptime ${color1}${uptime} ${color}  |  temp ${color1}$acpitemp °C   |   ${color}kernel ${color1}$kernel   |   ${color } ${time %A} ${color1} ${time  %d.%m.%Y}   |   ${color}arch ${color1}$machine   |   ${color}home ${color1}${fs_used /home}/${fs_size /home} / livre ${fs_free_perc /home}%   |   ${color}mem ${color1}$mem/$memmax / $memperc%   |   ${color}cpu ${color1} ${cpu cpu0}%  ${color}${freq}MHz${color1} ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% ${cpu cpu4}%   |   ${color}down${color1} ${downspeed wlp6s0} ${color}up ${color1}${upspeed wlp6s0}
