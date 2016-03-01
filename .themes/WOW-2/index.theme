@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=WOW-2
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=WOW-2
+MetacityTheme=WOW-2
+IconTheme=AwOken
+CursorTheme=Shere_Khan_X
+CursorSize=24

@@ -1,0 +1,10 @@
+{ 
+   "shell-theme": {
+   "name": "drakfire dream",
+   "author": "drakfire",
+   "version": "1.0",
+   "type":   "custom",
+   "thumbnail": "preview-dream.png",
+   "url": "http://drakfire86.deviantart.com"
+    }
+}

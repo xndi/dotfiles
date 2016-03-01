@@ -1,0 +1,470 @@
+style "toolbar"
+{
+xthickness=2
+ythickness=4
+
+  fg[NORMAL] = "#aaaaaa"
+  fg[PRELIGHT] = "#cccccc"
+  fg[SELECTED] = "#cccccc"
+  fg[ACTIVE] = "#cccccc"
+  fg[INSENSITIVE] = "#777777"
+
+  bg[NORMAL] = "#343434"
+  bg[PRELIGHT] = "#343434"
+  bg[SELECTED] = "#343434"
+  bg[ACTIVE] = "#343434"
+  bg[INSENSITIVE] = "#222222"
+
+  base[NORMAL] = "#606060"
+  base[PRELIGHT] = "#606060"
+  base[SELECTED] = "#618E8E"
+  base[ACTIVE] = "#909090"
+  base[INSENSITIVE] = "#494949"
+
+  text[NORMAL] = "#cccccc"
+  text[PRELIGHT] = "#eeeeee"
+  text[SELECTED] = "#eeeeee"
+  text[ACTIVE] = "#003535"
+  text[INSENSITIVE] = "#909090"
+
+engine "pixmap"
+{
+image
+{
+	function=BOX
+	file="/Toolbar/toolbar.png"
+	border={1,1,1,1}
+	stretch=TRUE
+}
+	image
+	{
+		function			= HANDLE
+		recolorable		= TRUE
+		overlay_file		= "Panel/handle-h.png"
+		overlay_stretch		= FALSE
+		orientation			= HORIZONTAL
+	}
+	image
+	{
+		function			= HANDLE
+		recolorable		= TRUE
+		overlay_file		= "Panel/handle-v.png"
+		overlay_stretch		= FALSE
+		orientation			= VERTICAL
+	}	
+      image
+      {
+	 	function		= ARROW
+		recolorable		= TRUE
+		state                   = NORMAL
+		overlay_file		= "Menu-Menubar/arrow-up.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= UP
+      }
+      
+      image
+      {
+		function		= ARROW
+		state			= PRELIGHT
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-up-prelight.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= UP
+      }
+     
+     image
+      {
+		function		= ARROW
+		state			= ACTIVE
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-up-insensitive.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= UP
+      }
+      
+      image
+      {
+		function		= ARROW
+		state			= INSENSITIVE
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-up-insensitive.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= UP
+      }
+      
+      image
+      {
+     	 	function		= ARROW
+      		state			= NORMAL
+      		recolorable		= TRUE
+      		overlay_file		= "Menu-Menubar/arrow-down.png"
+      		overlay_border		= { 0, 0, 0, 0 }
+     		overlay_stretch		= FALSE
+     		arrow_direction		= DOWN
+      }
+   	 
+      image
+      {
+		function		= ARROW
+		state			= PRELIGHT
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-down-prelight.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+    
+     image
+     {
+		function		= ARROW
+		state			= ACTIVE
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-down-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+
+     image
+     {
+		function		= ARROW
+		state			= INSENSITIVE
+		recolorable		= TRUE
+		overlay_file		= "Menu-Menubar/arrow-down-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+
+     image
+     {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = NORMAL
+		overlay_file		= "Menu-Menubar/arrow-left.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= LEFT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = PRELIGHT
+		overlay_file		= "Menu-Menubar/arrow-left-prelight.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= LEFT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = ACTIVE
+		overlay_file		= "Menu-Menubar/arrow-left-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= LEFT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = INSENSITIVE
+		overlay_file		= "Menu-Menubar/arrow-left-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= LEFT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = NORMAL
+		overlay_file		= "Menu-Menubar/arrow-right.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= RIGHT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = PRELIGHT
+		overlay_file		= "Menu-Menubar/arrow-right-prelight.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= RIGHT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = ACTIVE
+		overlay_file		= "Menu-Menubar/arrow-right-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= RIGHT
+      }
+      
+      image
+      {
+		function		= ARROW
+		recolorable		= TRUE
+		state                   = INSENSITIVE
+		overlay_file		= "Menu-Menubar/arrow-right-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= RIGHT
+      }
+    image
+    {
+      function			= FOCUS
+      recolorable		= TRUE
+      file			= "Shadows/entry-shadow-in1.png"
+      border			= { 4,4,4,4 }
+      stretch			= TRUE
+    }	
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+	 shadow			= IN
+      state			= NORMAL
+      file			= "Shadows/entry-shadow-in1.png"
+      border			= { 4,4,4,4 }
+      stretch			= TRUE
+    }	
+image
+    {
+      function			= BOX
+      recolorable		= TRUE
+	 shadow			= OUT
+      state			= NORMAL
+      file			= "Shadows/text-entry1.png"
+      border			= { 4,4,4,4 }
+      stretch			= TRUE
+    }	
+  image
+   {
+     function			= SHADOW
+     detail			= "entry"
+     shadow			= IN
+     recolorable		= FALSE
+     file			= "Shadows/text-entry1.png"
+     border			= { 4,4,4,4 }
+     stretch			= TRUE
+    }
+
+}}
+widget_class "*HandleBox"		style "toolbar"
+class "*HandleBox"			style "toolbar"
+widget_class "*<GtkToolbar>.*" 		style "toolbar"
+class "*Toolbar"			style "toolbar"
+widget_class "*<GtkToolbar>*.<GtkComboBox>.<GtkCellView>"   style "toolbar"
+style "toolbuttons"="default"
+{
+  GtkWidget::wide-separators                    = 0
+xthickness=4
+ythickness=4
+  fg[NORMAL] = "#aaaaaa"
+  fg[PRELIGHT] = "#cccccc"
+  fg[SELECTED] = "#cccccc"
+  fg[ACTIVE] = "#cccccc"
+  fg[INSENSITIVE] = "#777777"
+
+  bg[NORMAL] = "#343434"
+  bg[PRELIGHT] = "#343434"
+  bg[SELECTED] = "#343434"
+  bg[ACTIVE] = "#343434"
+  bg[INSENSITIVE] = "#222222"
+
+  base[NORMAL] = "#606060"
+  base[PRELIGHT] = "#606060"
+  base[SELECTED] = "#618E8E"
+  base[ACTIVE] = "#909090"
+  base[INSENSITIVE] = "#494949"
+
+  text[NORMAL] = "#aaaaaa"
+  text[PRELIGHT] = "#cccccc"
+  text[SELECTED] = "#cccccc"
+  text[ACTIVE] = "#003535"
+  text[INSENSITIVE] = "#909090"
+
+GtkWidget::focus_padding=2
+engine "pixmap" {
+      
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= NORMAL
+			file            			= "Toolbar/toolbutton-normal.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= PRELIGHT
+			shadow			= IN
+			file			= "Toolbar/toolbutton-prelight-active.png"
+			border			= { 5, 5, 5, 5 }
+			stretch			= TRUE
+		}
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= PRELIGHT
+			shadow			= OUT
+			file			= "Toolbar/toolbutton-prelight.png"
+			border			= { 5, 5, 5, 5 }
+			stretch			= TRUE
+		}
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= ACTIVE
+			file            			= "Toolbar/toolbutton-pressed.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= INSENSITIVE
+			file            			= "Toolbar/toolbutton-normal.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+	}
+}
+style "toolbar1"
+{
+xthickness=2
+ythickness=4
+engine "pixmap"
+{
+image
+{
+	function=BOX
+	file="/Toolbar/toolbar1.png"
+	border={1,1,1,3}
+	stretch=TRUE
+}
+	image
+	{
+		function			= HANDLE
+		recolorable		= TRUE
+		overlay_file		= "Handles/handle-h.png"
+		overlay_stretch		= FALSE
+		orientation			= HORIZONTAL
+	}
+	image
+	{
+		function			= HANDLE
+		recolorable		= TRUE
+		overlay_file		= "Handles/handle-v.png"
+		overlay_stretch		= FALSE
+		orientation			= VERTICAL
+	}
+}}
+style "rb" = "default"
+{
+  fg[NORMAL] = "#111111"
+  fg[PRELIGHT] = "#000000"
+  fg[SELECTED] = "#000000"
+  fg[ACTIVE] = "#003535"
+  fg[INSENSITIVE] = "#333333"
+engine "clearlooks" {
+	}
+}
+style "toolbuttons1"="default"
+{
+xthickness=4
+ythickness=6
+  GtkWidget::wide-separators                    = 0
+GtkWidget::focus_padding=2
+engine "pixmap" {
+      
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= NORMAL
+			file            			= "Toolbar/toolbutton-normal1.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= PRELIGHT
+			shadow			= IN
+			file			= "Toolbar/toolbutton-prelight-active1.png"
+			border			= { 5, 5, 5, 5 }
+			stretch			= TRUE
+		}
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= PRELIGHT
+			shadow			= OUT
+			file			= "Toolbar/toolbutton-prelight1.png"
+			border			= { 5, 5, 5, 5 }
+			stretch			= TRUE
+		}
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= ACTIVE
+			file            			= "Toolbar/toolbutton-pressed1.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= INSENSITIVE
+			file            			= "Toolbar/toolbutton-normal1.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+	}
+}
+
+#widget_class "*Tool*GtkToggleButton" style "toolbuttons"
+#widget_class "*Tool*GtkButton" style "toolbuttons"
+widget_class	"*<GtkToolbar>*<GtkButton>*" style "toolbuttons"
+#widget_class "*ToolButton*GtkToggleButton.*GtkLabel"	style "toolbar"
+#widget_class "*ToolButton*GtkButton.*GtkLabel"		style "toolbar"
+widget_class "*<GtkToolbar>*.<GtkComboBox>.<GtkCellView>"   style "toolbar"
+widget	"MozillaGtkWidget*Toolbar*"		style "toolbar1"
+widget	"MozillaGtkWidget.GtkFixed.GtkButton"	style	"toolbuttons1"
+widget_class "*Chrom*Button*" style "toolbuttons1"
+#widget_class	"*<GtkToolbar>*<GtkEntry>*" style "toolbar"
+widget_class "*RBSourceHeader.GtkToolbar*"				style "rb"
+widget_class "*RBSourceHeader.GtkToolbar*<GtkButton>*"	style "button"
+widget "*HeaderToolbar*"	style:highest "rb"
+widget "*FooterToolbar*"	style:highest "rb"
+
+
+

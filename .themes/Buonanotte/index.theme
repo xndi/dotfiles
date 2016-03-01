@@ -1,0 +1,14 @@
+[X-GNOME-Metatheme]
+Name=Buonanotte
+Name[en_CA]=Buonanotte
+Name[en_GB]=Buonanotte
+Type=X-GNOME-Metatheme
+Comment=Reverse contrast theme
+Comment[en_CA]=Reverse contrast theme
+Comment[en_GB]=Reverse contrast theme
+Encoding=UTF-8
+GtkTheme=Buonanotte
+MetacityTheme=Adwaita
+IconTheme=AwOken
+CursorTheme=Chameleon-Pearl-Regular
+CursorSize=32

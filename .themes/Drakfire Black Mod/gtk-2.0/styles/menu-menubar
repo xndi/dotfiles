@@ -1,0 +1,19 @@
+  GtkMenuBar::internal-padding  = 0
+
+  engine "aurora" 
+  {
+	  menubarstyle		= 2 # 0 = flat, 1 = gradient, 2 = sunken
+	  curvature       = 6.2
+	  arrowsize       = 1 # controls combo_arrow circle size.  Diameter set by (11 + 2 * arrowsize)
+	  old_arrowstyle  = FALSE #set to TRUE for original circled arrows
+	  animation       = TRUE # FALSE = disabled, TRUE = enabled
+  }
+
+style "theme-menubar" = "theme-default" {
+  bg[NORMAL] = shade (0.7,@bg_color)
+}
+style "theme-menubar-item" = "theme-menu-item" {}
+
+
+class "GtkMenuBar"      style "theme-menubar"
+widget_class "*<GtkMenuBar>.<GtkMenuItem>*" style "theme-menubar-item"

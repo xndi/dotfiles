@@ -1,0 +1,255 @@
+style "tb-spinbutton"	= "default"
+{
+  xthickness = 2
+  ythickness = 2
+  GtkWidget::interior_focus	= 0
+  base[NORMAL] = "#606060"
+  base[PRELIGHT] = "#606060"
+  base[SELECTED] = "#618E8E"
+  base[ACTIVE] = "#909090"
+  base[INSENSITIVE] = "#494949"
+  bg[NORMAL] = "#606060"
+  bg[PRELIGHT] = "#606060"
+  bg[SELECTED] = "#618E8E"
+  bg[ACTIVE] = "#909090"
+  bg[INSENSITIVE] = "#494949"
+  text[NORMAL] = "#cccccc"
+  text[PRELIGHT] = "#eeeeee"
+  text[SELECTED] = "#eeeeee"
+  text[ACTIVE] = "#003535"
+  text[INSENSITIVE] = "#909090"
+  engine "pixmap"
+  {
+    image
+    {
+      function			= ARROW
+    }
+
+############################# UP ######################xx
+    image
+    {
+      function			= BOX
+      state 			= NORMAL
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file			= "Spin/spin-up-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-up1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= PRELIGHT
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file			= "Spin/spin-up-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-up-prelight1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= INSENSITIVE
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file			= "Spin/spin-up-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-up-disable1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= ACTIVE
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file			= "Spin/spin-up-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-up-active1.png"
+      overlay_stretch		= FALSE
+    }
+
+########################x DOWN ########################
+    image
+    {
+      function			= BOX
+      state 			= NORMAL
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file			= "Spin/spin-down-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-down1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= PRELIGHT
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file			= "Spin/spin-down-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-down-prelight1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= INSENSITIVE
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file			= "Spin/spin-down-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-down-disable1.png"
+      overlay_stretch		= FALSE
+    }
+    image
+    {
+      function			= BOX
+      state 			= ACTIVE
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file			= "Spin/spin-down-bg1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+      overlay_file		= "Spin/arrow-down-active1.png"
+      overlay_stretch		= FALSE
+    }
+########################## SPIN ENTRY ###########################
+    image
+    {
+      function			= FOCUS
+      recolorable		= TRUE
+      file			= "Spin/text-entry-focus1.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+    }	
+    image
+    {
+      function			= SHADOW
+      detail			= "entry"
+      shadow			= IN
+      recolorable		= FALSE
+      file			= "Spin/text-entry1.png"
+      border			= { 5,5,5,5 }
+      stretch			= TRUE
+    }
+  }
+}
+widget_class	"*<GtkToolbar>*<GtkSpinButton>*" style "tb-spinbutton"
+style "tb-range"			= "default"
+{
+        
+  engine "pixmap" 
+  {
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail				= "trough"
+      file				= "Range/trough-horizontal1.png"
+      border			= { 6, 6, 0, 0 }
+      stretch			= TRUE
+      orientation		= HORIZONTAL
+    }	
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail				= "trough"
+      file				= "Range/trough-vertical1.png"
+      border			= { 0, 0, 6, 6 }
+      stretch			= TRUE
+      orientation		= VERTICAL
+    }
+
+############### the sliders ###############
+
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= NORMAL
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz1.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+     state           			= PRELIGHT
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz-prelight1.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= INSENSITIVE
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz-insens1.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+
+######################### VERTICAL ###########################
+
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= NORMAL
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert1.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+     state           			= PRELIGHT
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert-prelight1.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= INSENSITIVE
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert-insens1.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+  }
+}
+widget_class	"*<GtkToolbar>*<GtkScale>*" style "tb-range"
+

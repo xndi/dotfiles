@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Back-n-Black-Revised-GTK
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=Back-n-Black-Revised-GTK
+MetacityTheme=Back-n-Black-Revised-GTK
+IconTheme=gnome
+CursorTheme=DMZ-White
+CursorSize=24

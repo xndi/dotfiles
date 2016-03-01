@@ -1,0 +1,12 @@
+style "inactivetext"
+{
+
+engine "mist"
+ 	{
+	}
+}
+
+class "GtkLabel" style "inactivetext"
+widget_class	"*<GtkToolbar>*<GtkButton>*<GtkLabel>*" style:highest "inactivetext"
+widget_class	"*<GtkToolbar>*<GtkLabel>*" style:highest "inactivetext"
+widget_class "*Panel*Button*Label*" style:highest "inactivetext"

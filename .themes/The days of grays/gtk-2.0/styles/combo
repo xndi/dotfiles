@@ -1,0 +1,93 @@
+style "combo"		= "default"
+{
+  xthickness			= 2
+  ythickness			= 3
+  #GtkWidget::interior_focus	= 0
+  base[NORMAL] = "#545454"
+  base[PRELIGHT] = "#545454"
+  base[SELECTED] = "#222222"
+  base[ACTIVE] = "#545454"
+  base[INSENSITIVE] = "#505050" 
+  text[NORMAL] = "#cccccc"
+  text[PRELIGHT] = "#ffffff"
+  text[SELECTED] = "#ffffff"
+  text[ACTIVE] = "#ffffff"
+  text[INSENSITIVE] = "#aaaaaa" 
+  fg[NORMAL] = "#aaaaaa"
+  fg[PRELIGHT] = "#cccccc"
+  fg[SELECTED] = "#cccccc"
+  fg[ACTIVE] = "#cccccc"
+  fg[INSENSITIVE] = "#777777"
+  engine "pixmap"
+  {
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= PRELIGHT
+      file				= "Combo/combo-prelight.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= NORMAL
+      file				= "Combo/combo-normal.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+
+  image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= ACTIVE
+      file				= "Combo/combo-pressed.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= INSENSITIVE
+      file				= "Combo/combo-inactive.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= TAB
+      state				= INSENSITIVE
+      recolorable		= TRUE
+      overlay_file		= "Combo/combo-arrow-insens.png"
+      overlay_stretch	= FALSE
+    }
+    image
+    {
+      function				= TAB
+      recolorable			= TRUE
+      state					= NORMAL
+      overlay_file			= "Combo/combo-arrow.png"
+      overlay_border	= { 0, 0, 0, 0 }
+      overlay_stretch	= FALSE
+    }
+  image
+    {
+      function				= TAB
+      recolorable			= TRUE
+      state					= PRELIGHT
+      overlay_file			= "Combo/combo-arrow-prelight.png"
+      overlay_border	= { 0, 0, 0, 0 }
+      overlay_stretch	= FALSE
+    }
+  }
+}
+
+class "GtkCombo*"      			style "combo"
+widget_class "*Combo*" style "combo"
+widget "*.gtk-combobox-popup-menu.*"   style "combo"
+widget_class "*.<GtkComboBox>.<GtkCellView>"   style "combo"
+

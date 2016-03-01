@@ -1,0 +1,59 @@
+style "entry"			= "default"
+{
+  xthickness            			= 3
+  ythickness            			= 3 
+  GtkWidget::interior_focus	= 0
+  base[NORMAL] = "#d6d6d6"
+  base[PRELIGHT] = "#d6d6d6"
+  base[SELECTED] = mix (0.2, @selected_bg_color, @bg_color)
+  base[ACTIVE] = "#bdbdbd"
+  base[INSENSITIVE] = "#cccccc"   
+  text[NORMAL] = shade (1.1, @text_color)
+  text[SELECTED] = "#333333"
+  engine "pixmap"
+  {
+    image
+    {
+      function			= FOCUS
+      recolorable		= TRUE
+      file			= "Shadows/entry-shadow-in.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+    }	
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+	 shadow			= IN
+      state			= NORMAL
+      file			= "Shadows/entry-shadow-in.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+    }	
+image
+    {
+      function			= BOX
+      recolorable		= TRUE
+	 shadow			= OUT
+      state			= NORMAL
+      file			= "Shadows/text-entry.png"
+      border			= { 3,3,3,3 }
+      stretch			= TRUE
+    } 
+  image
+   {
+     function			= SHADOW
+     detail			= "entry"
+     shadow			= IN
+     recolorable		= FALSE
+     file			= "Shadows/text-entry.png"
+     border			= { 3,3,3,3 }
+     stretch			= TRUE
+    }
+  }
+}
+
+class "GtkEntry"           		style "entry"
+class "GtkOldEditable" 			style "entry"
+class "GtkEditable" 			style "entry"
+

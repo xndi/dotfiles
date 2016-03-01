@@ -1,0 +1,98 @@
+style "combo"		= "default"
+{
+  base[NORMAL] = "#333333"
+  base[PRELIGHT] = "#333333"
+  base[SELECTED] = "#111111"
+  base[ACTIVE] = "#333333"
+  base[INSENSITIVE] = "#333333"
+  text[NORMAL] = "#777777"
+  text[PRELIGHT] = "#aaaaaa"
+  text[SELECTED] = "#aaaaaa"
+  text[ACTIVE] = "#aaaaaa"
+  text[INSENSITIVE] = "#555555" 
+  fg[NORMAL] = "#777777"
+  fg[PRELIGHT] = "#aaaaaa"
+  fg[SELECTED] = "#aaaaaa"
+  fg[ACTIVE] = "#aaaaaa"
+  fg[INSENSITIVE] = "#454545"
+  engine "pixmap"
+  {
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= PRELIGHT
+      file				= "Combo/combo-prelight.png"
+      border			= { 3, 3, 3, 3 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= NORMAL
+      file				= "Combo/combo-normal.png"
+      border			= { 3, 3, 3, 3 }
+      stretch			= TRUE
+    }
+
+  image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= ACTIVE
+      file				= "Combo/combo-pressed.png"
+      border			= { 7, 7, 7, 7 }
+      stretch			= TRUE
+    }
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= INSENSITIVE
+      file				= "Combo/combo-inactive.png"
+      border			= { 3, 3, 3, 3 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= TAB
+      state				= INSENSITIVE
+      recolorable		= TRUE
+      overlay_file		= "Combo/combo-arrow-insens.png"
+      overlay_stretch	= FALSE
+    }
+    image
+    {
+      function				= TAB
+      recolorable			= TRUE
+      state					= NORMAL
+      overlay_file			= "Combo/combo-arrow.png"
+      overlay_border	= { 0, 0, 0, 0 }
+      overlay_stretch	= FALSE
+    }
+  image
+    {
+      function				= TAB
+      recolorable			= TRUE
+      state					= PRELIGHT
+      overlay_file			= "Combo/combo-arrow-prelight.png"
+      overlay_border	= { 0, 0, 0, 0 }
+      overlay_stretch	= FALSE
+    }
+  }
+}
+
+class "GtkCombo*"      			style "combo"
+widget_class "*Combo*" style "combo"
+style "combo1"	
+{
+  text[NORMAL] = "#777777"
+  text[PRELIGHT] = "#aaaaaa"
+  text[SELECTED] = "#aaaaaa"
+  text[ACTIVE] = "#aaaaaa"
+  text[INSENSITIVE] = "#555555" 
+}
+widget "*.gtk-combobox-popup-menu.*"   style "combo1"
+widget_class "*.<GtkComboBox>.<GtkCellView>"   style "combo1"
+

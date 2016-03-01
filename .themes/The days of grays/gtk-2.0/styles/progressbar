@@ -1,0 +1,58 @@
+style "progressbar" {
+  
+  fg[PRELIGHT]       		= "#cccccc"
+  xthickness            		= 0
+  ythickness            		= 0
+
+
+  engine "pixmap" 
+  {
+    image
+    {
+      function				= BOX
+      detail					= "trough"
+#      recolorable			= TRUE
+      file					= "ProgressBar/pixmap.png"
+      border				= { 2, 2, 2, 2 }
+      stretch				= FALSE
+		overlay_file		= "ProgressBar/trough-progressbar-horiz.png"
+		overlay_border		= { 2, 2, 2, 2 }
+		overlay_stretch		= TRUE
+      orientation                        = HORIZONTAL
+}
+    image
+    {
+      function				= BOX
+      detail					= "trough"
+#      recolorable			= TRUE 
+      file					= "ProgressBar/pixmap.png"
+      border				= { 2, 2, 2, 2 }
+      stretch				= TRUE
+		overlay_file		= "ProgressBar/trough-progressbar.png"
+		overlay_border		= { 2, 2, 2, 2 }
+		overlay_stretch		= TRUE
+      orientation                        = VERTICAL
+ }
+    image
+    {
+      function				= BOX
+      detail					= "bar"
+      file					= "ProgressBar/progressbar-horiz.png"
+      border				= { 2, 2, 2, 2 }
+      stretch				= TRUE
+      orientation			= HORIZONTAL
+    } 
+    image
+    {
+      function				= BOX
+      detail					= "bar"
+      file					= "ProgressBar/progressbar-vert.png"
+      border				= { 2, 2, 2, 2 }
+      stretch				= TRUE
+      orientation			= VERTICAL
+    }
+  }
+}
+widget_class "*ProgressBar*" style "progressbar"
+class "GtkProgressBar" style "progressbar"
+class "GtkBar" style "progressbar"

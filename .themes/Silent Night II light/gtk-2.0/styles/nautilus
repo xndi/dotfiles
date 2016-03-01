@@ -1,0 +1,36 @@
+
+style "entry-n" = "default"
+{
+  base[NORMAL] = "#333333"
+  base[PRELIGHT] = "#333333"
+  base[SELECTED] = "#111111"
+  base[ACTIVE] = "#333333"
+  base[INSENSITIVE] = "#333333"  	
+  text[NORMAL] = "#cccccc"
+  text[PRELIGHT] = "#ffffff"
+  text[SELECTED] = "#cccccc"
+  text[ACTIVE] = "#cccccc"
+  text[INSENSITIVE] = "#777777" 	
+
+	xthickness 		= 10
+	ythickness 		= 3
+
+    engine "pixmap"
+    {
+
+	# Text-entry
+	image
+	{
+		function		= SHADOW
+		detail			= "entry"
+		shadow			= IN
+		recolorable		= FALSE
+		file			= "Shadows/nautilus.png"
+		border			= { 20,20,3,3 }
+		stretch			= TRUE
+	}
+}
+}
+widget_class "*Nautilus*Toolbar*Entry*"		style "entry-n"
+class "ThunarPathEntry"		style  "entry-n"
+

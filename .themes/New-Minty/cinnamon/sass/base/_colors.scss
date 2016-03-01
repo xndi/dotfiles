@@ -1,0 +1,24 @@
+// Grey text uses alpha values of white & black.
+$text-primary:   alpha(#fff, 1);
+$text-secondary: alpha(#fff, .55);
+$text-disabled:  alpha(#fff, .15);
+
+$text-primary-invert:   alpha(#000, .75);
+$text-secondary-invert: alpha(#000, .45);
+
+
+// Grey icons use hex values.
+$icon-primary:   #fff;
+$icon-secondary: #999;
+$icon-disabled:  #444;
+
+$icon-primary-invert:   #222;
+$icon-secondary-invert: #444;
+
+
+// Misc colors
+$accent: #8abf5c;
+
+
+// Selectors with modified colors:
+//  .cinnamon-link

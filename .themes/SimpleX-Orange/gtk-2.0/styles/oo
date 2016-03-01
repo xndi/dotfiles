@@ -1,0 +1,7 @@
+style "oo"
+{
+    base[NORMAL]       	 = "#ffffff"
+    text[NORMAL]         = "#222222"
+}
+widget "GtkWindow"       style  "oo"
+

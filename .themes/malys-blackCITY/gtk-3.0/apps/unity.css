@@ -1,0 +1,77 @@
+UnityPanelWidget,
+.unity-panel {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (alpha (#333333, 1.0)),
+                                     color-stop (1.0, alpha (#333333, 1.0)),
+                                     to (alpha (#333333, 1.0)));
+    border-width: 0 0 1 0;
+    border-radius: 0;
+    padding: 8;
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (alpha (#000000, 1.0)),
+                                           to (alpha (#000000, 1.0)));
+    -unico-outer-stroke-width: 0 0 1 0;
+    -unico-inner-stroke-width: 0 0 1 0;
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (#555555, 1.0)),
+                                                 to (alpha (#555555, 1.0)));
+
+}
+
+.unity-panel.menubar,
+.unity-panel .menubar {
+
+
+
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (alpha (#333333, 0.0)),
+                                           to (alpha (#333333, 0.0)));
+    -unico-outer-stroke-width: 0 0 0 0;
+    padding: 8;
+}
+
+.unity-panel.menuitem,
+.unity-panel .menuitem {
+    border-width: 0;
+    border-radius: 0 0 0 0;
+    -unico-outer-stroke-width: 0 0 0 0;
+    -unico-inner-stroke-width: 0;
+    color: alpha (#666666, 1.0);
+    text-shadow: 0 1 alpha (#333333, 0.77);
+    icon-shadow: 0 1 alpha (#f2f2f2, 0.3);
+    padding: 8;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (alpha (#333333, 1.0)),
+                                     to (alpha (#333333, 1.0)));
+}
+
+.unity-panel.menubar.menuitem:hover,
+.unity-panel.menubar .menuitem *:hover {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (alpha (#333333, 1.0)),
+                                     to (alpha (#333333, 1.0)));
+ 
+
+     border-width: 0;
+
+    -unico-border-gradient: -gtk-gradient (linear,
+                              left top, left bottom,
+                              from (alpha (#dbdbdb, 1.0)),
+                              to (alpha (#dbdbdb, 1.0)));
+    -unico-outer-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                           from (alpha (#000000, 1.0)),
+                                           to (alpha (#000000, 1.0)));
+    -unico-outer-stroke-width: 0 0 1 0;
+    -unico-inner-stroke-width: 0 0 1 0;
+    -unico-inner-stroke-gradient: -gtk-gradient (linear, left top, left bottom,
+                                                 from (alpha (#e66025, 1.0)),
+                                                 to (alpha (#e66025, 1.0)));
+
+    color: alpha (#e66025, 1.0);
+    text-shadow: 0 1 alpha (#333333, 0.99);
+
+    border-radius: 0 0 0 0;
+
+
+}
+

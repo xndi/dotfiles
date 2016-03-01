@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=malys-blackCITY
+Type=X-GNOME-Metatheme
+Comment=GTK3+GTK2theme..::malys::.. 2012
+Version=1.0
+Encoding=UTF-8
+GtkTheme=malys-blackCITY
+MetacityTheme=malys-blackCITY
+IconTheme=malys-ex
+CursorTheme=Adwaita
+CursorSize=24

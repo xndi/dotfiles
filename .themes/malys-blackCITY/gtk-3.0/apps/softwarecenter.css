@@ -1,0 +1,120 @@
+@define-color light-aubergine #DED7DB;
+@define-color super-light-aubergine #F4F1F3;
+
+
+#featured-star {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+    border-color: alpha (#fff, 0.0);
+    color: #FFC51D;         /* orange */
+}
+
+.grid-lines {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+    border-color: alpha (#fff, 0.0);
+}
+
+#screenshot-preview {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+    border-color: alpha (#fff, 0.0);
+    color: #000;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+.backforward-left-button {
+    border-radius: 0px 0 0 0px;
+}
+
+.backforward-right-button {
+    border-radius: 0 0px 0px 0;
+}
+
+ .subtle,
+#subtle-label {
+    -GtkWidget-link-color: shade (@super-light-aubergine, 0.5);
+    -GtkWidget-visited-link-color: shade (@super-light-aubergine, 0.6);
+    color: shade (@super-light-aubergine, 0.5); /* non-link text color */
+    text-shadow: 0 1 alpha (#000, 0.0);
+}
+
+.cellrenderer-button {
+    border-radius: 0px;
+}
+
+ .cellrenderer-avgrating-label {
+    color: #8E8E8E; /* dark gray */
+}
+
+ .cellrenderer-avgrating-label:selected {
+    color: white;
+}
+
+ .more-link {
+    -GtkButton-inner-border: 0;
+    -GtkButton-default-border: 0;
+    -GtkButton-default-outside-border: 0;
+    color: darker (@light-aubergine);
+    background-color: #000;
+    border-color: alpha (#fff, 0.0);
+    text-shadow: 0 1 alpha (#000, 0.0);
+}
+
+ .frame-header-title {
+    text-shadow: 0 1 alpha (#000, 0.0);
+}
+
+ .item-view-separator {
+    border-color: alpha (#fff, 0.0);
+    border-width: 0px;
+}
+
+.light-aubergine-bg {
+
+    background-color: #000;
+}
+
+ .super-light-aubergine-bg {
+    background-color: #000;
+    border-color: alpha (#fff, 0.0);
+}
+
+GtkViewport {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+    border-width: 0;
+    padding: 0;
+}
+
+GtkTreeView {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+}
+
+GtkTreeView:selected {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+}
+
+#toolbar-popup {
+    background-image: -gtk-gradient (linear,
+                       left top, left bottom,
+                       from (alpha (#000000, 0.0)),
+                       to (alpha (#000000, 0.0)));
+    padding: 0;
+}
+

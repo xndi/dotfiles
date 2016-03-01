@@ -1,0 +1,77 @@
+/* ===================================================================
+   ! Calculator
+   ===================================================================*/
+
+.calc-mainBox { padding: 2px; }
+
+.calc-displayArea { padding: 3px; }
+
+.calc-displayWindow {
+    border-image: url("widget-assets/entry-focused.svg") 7;
+    padding: 10px;
+
+    &-rpn {
+        border-image: url("widget-assets/entry-focused.svg") 7;
+        padding: 10px;
+    }
+}
+
+.calc-displayText-primary {
+    font-size: 32px;
+    color: $text-primary-invert;
+    text-align: right;
+}
+
+.calc-displayText-secondary {
+    font-size: 9px;
+    color: $text-secondary-invert;
+    text-align: right;
+    padding-bottom: 8px;
+}
+
+.calc-displayText-operation {
+    font-size: 24px;
+}
+
+.calc-displayText-status {
+    font-size: 8px;
+    color: $text-secondary-invert;
+}
+
+.calc-displayText-rpn {
+    color: $text-primary-invert;
+}
+
+.calc-stackArea {
+    height: 85px;
+    padding-top: 0;
+}
+
+.calc-navigation-box {
+    padding: 0 0 0 8px;
+    width: 22px;
+    border: none;
+}
+
+.calc-navigation-icon {
+    color: $icon-primary-invert;
+    icon-size: 16px;
+}
+
+.calc-navigation-button { border: none; }
+
+
+.calc-button {
+    border-image: url("button-assets/button.svg") 7;
+    height: 32px;
+    width: 38px;
+    border-width: 0;
+    margin: 0;
+    color: $icon-primary;
+
+    &:hover { border-image: url("button-assets/button-hover.svg") 7; }
+
+    &:active { border-image: url("button-assets/button-pressed.svg") 7; }
+
+    &-padding { padding: 2px; }
+}

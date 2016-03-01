@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=SimpleX-Grayscale
+Comment=Slick and simple light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=SimpleX-Grayscale
+MetacityTheme=SimpleX-Grayscale
+ButtonLayout=menu:minimize,maximize,close

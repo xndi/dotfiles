@@ -1,0 +1,95 @@
+* {
+    -EelEditableLabel-cursor-aspect-ratio: 0.1;
+    -EelEditableLabel-cursor-color: #fcfcfc;
+
+    -GtkRange-stepper-size: 20;
+
+    -GtkTreeView-expander-size: 16;
+
+    -GtkWidget-cursor-color: #fcfcfc;
+    -GtkWidget-cursor-aspect-ratio: 0.1;
+    -GtkWidget-focus-line-width: 1;
+    -GtkWidget-focus-padding: 0;
+    -GtkWidget-interior-focus: 1;
+    -GtkWidget-link-color: #fcfcfc;
+    -GtkWidget-visited-link-color: #cccccc;
+
+    /* Nautilus */
+    -NautilusIconContainer-frame-text: 1;
+
+    /* Pidgin */
+    -GtkIMHtml-hyperlink-color: #fcfcfc;
+    -GtkIMHtml-hyperlink-visited-color: #cccccc;
+    -GtkIMHtml-hyperlink-prelight-color: #fcfcfc;
+
+    /* Evolution */
+    -GtkHTML-link-color: #fcfcfc;
+    -GtkHTML-vlink-color: #fcfcfc;
+    -GtkHTML-cite-color: #cccccc;
+
+    background-color: #151515;
+    border-color: #151515;
+    color: #fcfcfc;
+}
+
+*:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+*:insensitive {
+    color: #fcfcfc;
+    background-color: #444444;
+    border-color: #444444;
+}
+
+.notebook,
+.trough {
+    border-width: 1;
+    border-style: solid;
+    border-color: #444444;
+}
+
+.button {
+    border-width: 1;
+    border-style: outset;
+    border-color: #444444;
+}
+
+.trough {
+    background-color: #444444;
+    color: #fcfcfc;
+}
+
+tab {
+    background-color: #666;
+}
+
+tab:active {
+    background-color: #151515;
+    color: #000000;
+	border-color: #444444;
+	border-width: 1;
+}
+
+row:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+*:selected {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+*:selected:focused {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button:prelight:active {
+    background-color: #151515;
+    border-color: #444444;
+    color: #fcfcfc;
+}

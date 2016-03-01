@@ -1,0 +1,12 @@
+/* ===================================================================
+   ! Tooltips
+   ===================================================================*/
+
+#Tooltip {
+    border-image: url("background-assets/popup-osd.svg") 4;
+    padding: 6px 8px;
+    color: $text-primary;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+}

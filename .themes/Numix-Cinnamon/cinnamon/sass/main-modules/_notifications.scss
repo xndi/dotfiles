@@ -1,0 +1,84 @@
+/* ===================================================================
+   ! Notifications
+   ===================================================================*/
+
+#notification {
+    border-image: url("background-assets/popup.svg") 7;
+    padding: 1.3em;
+    spacing-rows: .5em;
+    spacing-columns: 10px;
+    width: 34em;
+    margin-from-right-edge-of-screen: 6px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: $text-primary;
+
+    &.multi-line-notification {/*!*/}
+
+    &-scrollview {
+        max-height: 100em;
+
+        > .top-shadow,
+        > .bottom-shadow {
+            height: 10em;
+        }
+
+        &:ltr > StScrollBar {
+            padding-left: 6px;
+        }
+
+        &:rtl > StScrollBar {
+            padding-right: 6px;
+        }
+    }
+
+    CinnamonGenericContainer * {
+        font-weight: normal;
+        font-size: 9pt;
+        color: $accent;
+
+        &:first-child {
+            font-weight: bold;
+            font-size: 10pt;
+            padding: .2em 0;
+            color: $text-primary;
+        }
+
+        &:last-child {
+            padding: .3em 0;
+            color: $text-primary;
+        }
+    }
+
+    &-body {
+        font-weight: normal;
+        font-size: 9pt;
+        padding: .8em 0 .6em 0 ;
+        border-top: 1px #333;
+    }
+
+    &-actions {
+        spacing: 10px;
+    }
+}
+/* ===================================================================
+   ! Notification applet
+   ===================================================================*/
+
+.notification-applet-padding {
+    padding: .6em .4em;
+
+    &:first-child {
+        padding-top: 1.3em;
+    }
+
+    &:last-child {
+        padding-bottom: .8em;
+    }
+}
+
+/* Notifs look inside the notification applet & other popups. */
+.popup-menu-content #notification {
+    border-image: url("background-assets/dark-bg.svg") 7;
+    padding: .8em .8em .6em .8em;
+}

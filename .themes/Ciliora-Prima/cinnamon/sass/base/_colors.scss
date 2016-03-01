@@ -1,0 +1,24 @@
+// Grey text uses alpha values of white & black.
+$text-primary:   alpha(#fff, 1);
+$text-secondary: alpha(#fff, .5);
+$text-disabled:  alpha(#fff, .15);
+
+$text-primary-invert: alpha(#000, .75);
+
+
+// Grey icons use hex values.
+$icon-primary:   #fff;
+$icon-secondary: #999;
+$icon-disabled:  #444;
+
+$icon-primary-invert: #fff;
+
+
+// Misc colors
+$accent:  #8198af;
+$info:    #e8a05f;
+$warning: #e86b6b;
+
+
+//  Selectors with modified colors:
+//  .popup-slider-menu-item

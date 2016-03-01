@@ -1,0 +1,17 @@
+## FlatSurfacesBlack
+
+button_offset=2
+button_spacing=0
+full_width_title=true
+#title_horizontal_offset=-3
+title_vertical_offset_active=0
+title_vertical_offset_inactive=0
+button_layout=|HMC
+active_text_color=#ffffff
+inactive_text_color=#cccccc
+#shadow_delta_height=2
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=0
+
+

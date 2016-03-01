@@ -1,0 +1,10 @@
+{ 
+   "shell-theme": {
+   "name": "Nord",
+   "author": "Reda Lazri(rAX)",
+   "version": "1.0",
+   "type":   "custom",
+   "thumbnail": "preview-nord.png",
+   "url": "http://0rAX0.deviantart.com"
+    }
+}

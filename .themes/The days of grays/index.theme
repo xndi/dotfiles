@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=The days of grays
+Comment=Dark Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=The days of grays
+MetacityTheme=The days of grays
+IconTheme=ffw
+CursorTheme=DMZwhite

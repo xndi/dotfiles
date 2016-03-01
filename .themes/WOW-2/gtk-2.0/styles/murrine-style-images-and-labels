@@ -1,0 +1,35 @@
+style "murrinestyle1"
+{
+	engine "murrine" {
+textstyle = 1
+text_shade = 1.2
+}}
+
+widget_class "*<GtkImage>*" style "murrinestyle1"
+widget_class "*.<GtkLabel>" style:highest "murrinestyle1"
+widget_class "*.<GtkComboBox>*.<GtkCellView>" style "murrinestyle1"
+
+style "murrinestyle2"
+{
+
+	engine "murrine" {
+textstyle = 0
+
+}}
+
+widget_class "*.<GtkMenuItem>.*" style:highest "murrinestyle2"
+widget_class	"*<GtkMenuBar>*<GtkLabel>*" style:highest "murrinestyle2"
+widget_class "*CPUFreqApplet*" style:highest "murrinestyle2"
+
+
+style "murrinestyle3"
+{
+	engine "murrine" {
+textstyle = 1
+text_shade = 1.2
+}}
+widget_class	"*<GtkToolbar>*<GtkButton>*<GtkLabel>*" style:highest "murrinestyle3"
+widget_class	"*<GtkToolbar>*<GtkLabel>*" style:highest "murrinestyle3"
+widget_class	"*<GtkButton>*<GtkLabel>*" style:highest "murrinestyle3"
+
+

@@ -1,0 +1,28 @@
+style "progressbar" {
+  
+  fg[PRELIGHT]       		= "#000000"
+
+  xthickness            		= 0
+  ythickness            		= 0
+
+
+  bg[SELECTED] = "#454545"
+  engine "murrine" 
+  {
+animation = TRUE
+contrast = 2.8
+gradient_shades = { 1.51, 0.8, 1.05, 0.62 }
+gradients = TRUE
+glowstyle = 2
+lightborder_shade = 1.22
+lightborderstyle = 0
+reliefstyle = 2 
+progressbarstyle = 2
+highlight_shade = 1.0
+glow_shade = 2.0
+}
+}
+
+widget_class "*ProgressBar*" style "progressbar"
+class "GtkProgressBar" style "progressbar"
+class "GtkBar" style "progressbar"

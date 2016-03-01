@@ -1,0 +1,70 @@
+/* ===================================================================
+   ! Alt Tab
+   ===================================================================*/
+
+#altTabPopup {
+    padding: 0;
+    spacing: 4px;
+}
+
+// Window name in coverflow & timeline modes
+.switcher-list {
+    border-image: url("expo-scale-assets/window-name.svg") 7;
+    color: $text-primary;
+    padding: 0 3px;
+    font-weight: bold;
+}
+
+// Thumbnails box in "icons & thumbnails" mode
+.switcher-list:last-child {
+    border-image: url("background-assets/popup-outside.svg") 7;
+    color: $text-primary;
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+
+    .item-box {
+        padding: 10px;
+        spacing: 10px;
+
+        &:selected {
+            border-image: url("background-assets/popup-inside-2.svg") 7;
+            color: $text-primary;
+        }
+
+        StLabel { padding-top: .8em; }
+    }
+}
+
+// Icons box in classical alt-tab mode
+.switcher-list:first-child:last-child,
+.switcher-list:first-child {
+    border-image: url("background-assets/popup-outside.svg") 7;
+    color: $text-primary;
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+
+    .item-box {
+        border-image: url("background-assets/popup-inside-2.svg") 7;
+        padding: 10px;
+
+
+        &:selected {
+            border-image: url("background-assets/popup-inside-active.svg") 7;
+            color: $text-primary;
+        }
+
+        StLabel { padding-top: .4em; }
+    }
+}
+
+.thumbnail {
+    width: 256px;
+}
+
+.switcher-list-item-container {
+    spacing: 2px;
+}
+
+.alt-tab-app {}

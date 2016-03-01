@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=WOW-2_Dark_Toolbar
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=WOW-2_Dark_Toolbar
+MetacityTheme=WOW-2_Dark_Toolbar
+IconTheme=AwOken
+CursorTheme=Shere_Khan_X
+CursorSize=24

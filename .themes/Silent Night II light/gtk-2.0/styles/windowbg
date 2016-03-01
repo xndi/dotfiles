@@ -1,0 +1,20 @@
+style "windowbg"
+{
+   engine "pixmap"
+   {
+        image
+        {
+                function = FLAT_BOX
+		recolorable		= TRUE
+                file = "Others/bg.png"
+                border = {0, 0, 0, 0}
+		stretch = FALSE
+		overlay_file		= "Others/bg1.png"
+		overlay_border		= { 0, 0, 50, 0 }
+		overlay_stretch		= TRUE
+        }
+   }
+
+}
+
+class "GtkWindow" style "windowbg"

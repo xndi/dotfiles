@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Black-Widow-GTK
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=Black-Widow-GTK
+MetacityTheme=Black-Widow-GTK
+IconTheme=gnome
+CursorTheme=DMZ-White
+CursorSize=24
