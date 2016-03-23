@@ -1,0 +1,653 @@
+{
+	"folder_history":
+	[
+		"/home/azk4n/projetos/ambiente/mysite",
+		"/home/azk4n/projetos/ambiente/mysite/blog",
+		"/home/azk4n/git/python_URI",
+		"/home/azk4n/projetos/appteste",
+		"/home/azk4n/projetos/appteste/first/core",
+		"/home/azk4n/git/c",
+		"/home/azk4n/code/python"
+	],
+	"last_window_id": 12,
+	"settings":
+	{
+		"new_window_height": 571.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"p",
+						"published_date	statement"
+					],
+					[
+						"b",
+						"b	statement"
+					],
+					[
+						"val",
+						"value2	statement"
+					],
+					[
+						"g",
+						"getcwdb	function"
+					],
+					[
+						"getid",
+						"getpid	function"
+					],
+					[
+						"wh",
+						"while	While Loop"
+					],
+					[
+						"whi",
+						"while	keyword"
+					]
+				]
+			},
+			"build_system": "Packages/Python/Python.sublime-build",
+			"command_palette":
+			{
+				"height": 112.0,
+				"selected_items":
+				[
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"pyt",
+						"Set Syntax: Python"
+					],
+					[
+						"pytho",
+						"Set Syntax: Python"
+					],
+					[
+						"",
+						"Snippet: If Condition"
+					],
+					[
+						"new",
+						"Snippet: New Class"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 118.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/azk4n/git/python_URI/uri1009.py",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/azk4n/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/azk4n/git/python_URI/uri1015.py",
+				"/home/azk4n/git/python_URI/uri1016.py",
+				"/home/azk4n/git/python_URI/uri1010.py",
+				"/home/azk4n/git/python_URI/uri1006.py",
+				"/home/azk4n/projetos/ambiente/mysite/mysite/settings.py",
+				"/home/azk4n/projetos/appteste/first/core/views.py",
+				"/home/azk4n/git/python_URI/uri1014.py",
+				"/home/azk4n/projetos/appteste/first/first/urls.py",
+				"/home/azk4n/code/python/uri1013.py",
+				"/home/azk4n/code/python/uri1012.py",
+				"/home/azk4n/code/python/uri1011.py",
+				"/home/azk4n/code/python/uri1010.py",
+				"/home/azk4n/code/python/uri1001.py",
+				"/home/azk4n/code/python/untitled.py",
+				"/home/azk4n/code/python/uri1004.py",
+				"/home/azk4n/code/python/uri1003.py",
+				"/home/azk4n/.conkyrc",
+				"/home/azk4n/code/python/uri1009.py",
+				"/home/azk4n/code/python/uri1008.py",
+				"/home/azk4n/code/python/uri1007.py",
+				"/home/azk4n/code/python/uri1006.py",
+				"/home/azk4n/code/python/uri1002.py",
+				"/home/azk4n/code/python/uri1005.py",
+				"/home/azk4n/code/python/sdd.py",
+				"/home/azk4n/sdd.py",
+				"/home/azk4n/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/Python.sublime-settings"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 30.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 94.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"packa",
+						"/home/azk4n/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": false
+		},
+		"new_window_width": 1189.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"p",
+						"published_date	statement"
+					],
+					[
+						"b",
+						"b	statement"
+					],
+					[
+						"val",
+						"value2	statement"
+					],
+					[
+						"g",
+						"getcwdb	function"
+					],
+					[
+						"getid",
+						"getpid	function"
+					],
+					[
+						"wh",
+						"while	While Loop"
+					],
+					[
+						"whi",
+						"while	keyword"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "from django.db import models\nfrom django.utils import timezone\n\nclass Post(models.Model):\n	author = models.ForeignKey('auth.user')\n	title = models.CharField(max_length=200)\n	text = models.TextField()\n	created_date = models.DateTimeField(default=timezone.now)\n	published_date = models.DateTimeField(blank=True, null=True)\n\n	def publish(self):\n		self.published_date = timezone.now()\n		self.save()\n\n\n\n	def __str__(self):\n		return self.title\n	\n\n",
+					"file": "/home/azk4n/projetos/ambiente/mysite/blog/models.py",
+					"file_size": 440,
+					"file_write_time": 1458762798000000,
+					"settings":
+					{
+						"buffer_size": 441,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/azk4n/projetos/ambiente/mysite/blog/admin.py",
+					"settings":
+					{
+						"buffer_size": 113,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/azk4n/projetos/ambiente/mysite/blog/apps.py",
+					"settings":
+					{
+						"buffer_size": 83,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/azk4n/projetos/ambiente/mysite/mysite/settings.py",
+					"settings":
+					{
+						"buffer_size": 3240,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/azk4n/projetos/ambiente/mysite/mysite/urls.py",
+					"settings":
+					{
+						"buffer_size": 762,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/Python/Python.sublime-build",
+			"command_palette":
+			{
+				"height": 98.0,
+				"selected_items":
+				[
+					[
+						"bUI",
+						"Build: Build"
+					],
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"pyt",
+						"Set Syntax: Python"
+					],
+					[
+						"pytho",
+						"Set Syntax: Python"
+					],
+					[
+						"",
+						"Snippet: If Condition"
+					],
+					[
+						"new",
+						"Snippet: New Class"
+					]
+				],
+				"width": 378.0
+			},
+			"console":
+			{
+				"height": 118.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/azk4n/git/python_URI/uri1009.py",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+				"/home/azk4n/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/azk4n/git/python_URI/uri1015.py",
+				"/home/azk4n/git/python_URI/uri1016.py",
+				"/home/azk4n/git/python_URI/uri1010.py",
+				"/home/azk4n/git/python_URI/uri1006.py",
+				"/home/azk4n/projetos/ambiente/mysite/mysite/settings.py",
+				"/home/azk4n/projetos/appteste/first/core/views.py",
+				"/home/azk4n/git/python_URI/uri1014.py",
+				"/home/azk4n/projetos/appteste/first/first/urls.py",
+				"/home/azk4n/code/python/uri1013.py",
+				"/home/azk4n/code/python/uri1012.py",
+				"/home/azk4n/code/python/uri1011.py",
+				"/home/azk4n/code/python/uri1010.py",
+				"/home/azk4n/code/python/uri1001.py",
+				"/home/azk4n/code/python/untitled.py",
+				"/home/azk4n/code/python/uri1004.py",
+				"/home/azk4n/code/python/uri1003.py",
+				"/home/azk4n/.conkyrc",
+				"/home/azk4n/code/python/uri1009.py",
+				"/home/azk4n/code/python/uri1008.py",
+				"/home/azk4n/code/python/uri1007.py",
+				"/home/azk4n/code/python/uri1006.py",
+				"/home/azk4n/code/python/uri1002.py",
+				"/home/azk4n/code/python/uri1005.py",
+				"/home/azk4n/code/python/sdd.py",
+				"/home/azk4n/sdd.py",
+				"/home/azk4n/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/azk4n/.config/sublime-text-2/Packages/User/Python.sublime-settings"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"models",
+					"timezone.now",
+					"published_date",
+					"()\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/azk4n/projetos/ambiente/mysite"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/azk4n/projetos/ambiente/mysite/blog/models.py",
+							"settings":
+							{
+								"buffer_size": 441,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										441,
+										441
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/azk4n/projetos/ambiente/mysite/blog/admin.py",
+							"settings":
+							{
+								"buffer_size": 113,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/azk4n/projetos/ambiente/mysite/blog/apps.py",
+							"settings":
+							{
+								"buffer_size": 83,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/azk4n/projetos/ambiente/mysite/mysite/settings.py",
+							"settings":
+							{
+								"buffer_size": 3240,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 392.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/azk4n/projetos/ambiente/mysite/mysite/urls.py",
+							"settings":
+							{
+								"buffer_size": 762,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 30.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 94.0
+			},
+			"position": "0,0,0,0,0,83,115,1281,617,2726,768",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"",
+						"mysite/settings.py"
+					],
+					[
+						"packa",
+						"/home/azk4n/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": false,
+			"window_id": 12,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
