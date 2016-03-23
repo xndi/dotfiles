@@ -2,7 +2,7 @@
 
 background yes
 use_xft yes
-xftfont Droid Sans:size=8.4
+xftfont Envy Code R:size=8
 xftalpha 3.0
 
 update_interval 1.0
@@ -31,4 +31,4 @@ gap_x 8
 gap_y 6
 
 TEXT
- azk4n |   ${color1}${time %H:%M:%S}  ${color} |   ${color}uptime ${color1}${uptime} ${color}  |  temp ${color1}$acpitemp °C   |   ${color}kernel ${color1}$kernel   |   ${color } ${time %A} ${color1} ${time  %d.%m.%Y}   |   ${color}arch ${color1}$machine   |   ${color}home ${color1}${fs_used /home}/${fs_size /home} / livre ${fs_free_perc /home}%   |   ${color}mem ${color1}$mem/$memmax / $memperc%   |   ${color}cpu ${color1} ${cpu cpu0}%  ${color}${freq}MHz${color1} ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% ${cpu cpu4}%   |   ${color}down${color1} ${downspeed wlp6s0} ${color}up ${color1}${upspeed wlp6s0}
+ azk4n / ${color1}${time %H:%M}${color} / ${color}${time %A}${color1} ${time  %d.%m.%Y} ${color} / temp ${color1}$acpitemp °C ${color}/ ${color}kernel ${color1}$kernel ${color}/ ${color}up ${color1}${uptime} ${color} / ${color}arch ${color1}$machine ${color}/ ${color}home ${color1}${fs_used /home}/${fs_size /home} ${color1}[${fs_free_perc /home}]%${color} / mem ${color1}$mem/$memmax ${color1}[$memperc%] ${color}/ cpu ${color1} ${cpu cpu0}%  ${color}${freq}MHz${color1} ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% ${cpu cpu4}% ${color}/ ${color}down${color1} ${downspeed wlp6s0} ${color}up ${color1}${upspeed wlp6s0}
