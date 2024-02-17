@@ -1,5 +1,0 @@
-<effects>
-	<object id="black-white" class="ClutterDesaturateEffect">
-		<property name="factor">1.0</property>
-	</object>
-</effects>
