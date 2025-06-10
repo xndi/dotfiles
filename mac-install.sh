@@ -16,8 +16,10 @@ defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
 
 # allow key repeat
-defaults write -g KeyRepeat -int 1.9
-defaults write -g InitialKeyRepeat -int 14
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 10
+# https://mac-key-repeat.zaymon.dev/
+
 # disable press and hold
 defaults delete -g ApplePressAndHoldEnabled
 
