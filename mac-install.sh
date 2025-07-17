@@ -8,6 +8,7 @@ defaults write com.apple.dock magnification -float 1.0
 defaults write com.apple.dock mineffect -string "genie"
 # dock instant show without much delay
 defaults write com.apple.dock autohide-time-modifier -float 0.7
+defaults write com.apple.dock autohide-delay -float 0
 killall Dock
 # finder settings
 defaults write com.apple.finder ShowStatusBar -bool true
