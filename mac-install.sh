@@ -1,4 +1,6 @@
 #!/bin/bash
+# drag windows with cmd+ctrl+click
+defaults write -g NSWindowShouldDragOnGesture -bool true
 
 # dock autohide and configs
 defaults write com.apple.dock autohide -bool true
