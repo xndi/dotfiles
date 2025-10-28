@@ -3,7 +3,7 @@ decorations = "None"           # remove macOS titlebar/borders
 padding = { x = 0, y = 0 }
 dynamic_padding = false
 startup_mode = "Windowed"
-#opacity = 0.95                 # 95% opacity (slight transparency)
+# opacity = 0.95                 # 95% opacity (slight transparency) (no borders osx)
 option_as_alt = "Both"         # optional: makes Option act as Alt
 
 [font]
@@ -17,7 +17,6 @@ foreground = "0xdddddd"        # white text faded
 TERM = "xterm-256color"
 
 [keyboard]
-# Keep manual toggle available if you ever want to exit Vi mode
 bindings = [
   { key = "c", mods = "Control|Shift", action = "ToggleViMode" }
 ]
